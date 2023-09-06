@@ -43,4 +43,4 @@ jobs:
         run: npm install -g surge
         
       - name: Deploy To Surge
-        run: surge ./build timer.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build clockapp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
