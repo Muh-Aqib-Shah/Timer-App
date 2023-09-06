@@ -1,10 +1,13 @@
-import './App.css';
 import { Clock } from './Clock';
+import { GlobalStyle, StyledWrapper } from './App.styles';
 
 function App() {
   return (
     <div className='App'>
-      <Clock />  
+      <GlobalStyle />
+      <StyledWrapper>
+      <Clock />
+      </StyledWrapper>
     </div>
   );
 }
