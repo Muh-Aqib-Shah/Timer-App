@@ -22,9 +22,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install NodeJS
-        uses: actions/setup-node@v14.21.3
+        uses: actions/setup-node@v2.3.0
         with:
-          node version: 14
+          node version: 18
 
      
       - name: Prepare for Yarn Installation
